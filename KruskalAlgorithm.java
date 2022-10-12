@@ -19,8 +19,12 @@ class KruskalAlgorithm {
         }  
     };  
   
-    // create class Subset for union  
-    class Subset {  
+    // create class Subset for union and intersection
+   class Superset {  
+        int pparent, vvalue;  
+    };  
+      
+   class Subset {  
         int parent, value;  
     };  
       
