@@ -1,8 +1,6 @@
-package codechef;
-
 import java.util.Scanner;
 
-public class Strvowel {
+public class stringVowel {
 
 	public static void main(String[] args) {
 		Scanner sc =new Scanner(System.in);
@@ -32,7 +30,7 @@ public class Strvowel {
 		System.out.println(mincost);
 		
 		
-	
+		sc.close();
 	}
 
 }

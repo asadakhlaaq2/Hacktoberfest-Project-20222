@@ -1,12 +1,10 @@
-package codechef;
-
 public class Tuf {
 
 	public static void main(String[] args) {
 		int n = 4;
 	    int[][] a = {{1,0,0,0},{1,1,0,1},{1,1,0,0},{0,1,1,1}};
 
-
+		
 	}
 	
 	

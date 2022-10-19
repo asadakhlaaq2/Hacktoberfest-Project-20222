@@ -1,6 +1,4 @@
-package codechef;
-
-public class per {
+public class perfectValue {
 static int flag=0;
 	public static void main(String[] args) {
 		String h="amile";

@@ -1,8 +1,6 @@
-package codechef;
-
 import java.util.Scanner;
 
-public class ChefandLinerChess {
+public class ChefAndLinerChess {
 
 	public static void main (String[] args) throws java.lang.Exception
 	{
@@ -17,7 +15,6 @@ public class ChefandLinerChess {
             int k = sc.nextInt();
             int min=1000000;
             int min2=-1;
-            int sum=0;
             int pi[] = new int[10000];
             
             for(int i=0;i<n;i++)
@@ -40,7 +37,7 @@ public class ChefandLinerChess {
             } 
             System.out.println(min2);
             
-            
+        sc.close();
 	}
 	}
 	

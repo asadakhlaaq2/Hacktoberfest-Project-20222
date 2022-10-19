@@ -1,5 +1,3 @@
-package codeforces;
-
 import java.util.*;
 
 
