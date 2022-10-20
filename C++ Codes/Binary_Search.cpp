@@ -32,9 +32,14 @@ int binarySearch(int arr[], int l, int r, int x)
 
 int main(void)
 {
-	int arr[] = { 2, 3, 4, 10, 40 };
-	int x = 10;
-	int n = sizeof(arr) / sizeof(arr[0]);
+	int x;
+	int n;
+	cin>>n;
+	int arr[n];
+	for(int i=0;i<n;i++)
+		cin>>arr[i];
+	cout<<"enter the number to be searched";
+	cin>>x;
 	int result = binarySearch(arr, 0, n - 1, x);
 	(result == -1)
 		? cout << "Element is not present in array"
