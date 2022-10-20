@@ -1,9 +1,7 @@
-package codechef;
-
 import java.util.PriorityQueue;
 import java.util.Scanner;
 
-public class passenger {
+public class Passenger {
 	static Scanner sc=new Scanner (System.in);
 
 	public static void main(String[] args) {
